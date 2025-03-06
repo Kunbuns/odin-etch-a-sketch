@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#buttonContainer {
+    margin: 10px;
+}
+
+#container {
+    width: 960px;
+    height: 960px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+}
+
+.box {
+    border: 2px solid black;
+    display: flex;
+    flex-grow: 1;
+    margin: -1px;
+}
